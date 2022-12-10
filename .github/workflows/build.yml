@@ -14,8 +14,9 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     strategy:
       matrix:
-        node-version: [ 12.x, 14.x, 16.x, lts/* ]
-        os: [ ubuntu-latest, macOS-latest ]
+        node-version: [ lts/* ]
+        # Try to check for build compatibility on common platforms.
+        os: [ ubuntu-latest, macOS-latest, windows-latest ]
     runs-on: ${{ matrix.os }}
     steps:
       - name: ⬇️ Checkout
