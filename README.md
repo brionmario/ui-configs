@@ -16,6 +16,7 @@ Shareable configurations to maintain consistency across
 
 <div align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+  <a href="https://github.com/brionmario/ui-configs/actions/workflows/build.yml"><img src="https://github.com/brionmario/ui-configs/actions/workflows/build.yml/badge.svg" alt="🐳 Build"></a>
 
   <br>
   <br>
