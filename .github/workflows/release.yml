@@ -27,6 +27,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: 🥡 Setup pnpm
+        id: setup-pnpm
+        uses: pnpm/action-setup@v2.1.0
+        with:
+          version: latest
+          run_install: false
+
       - name: 🎈 Get pnpm store directory
         id: get-pnpm-cache-dir
         run: |
