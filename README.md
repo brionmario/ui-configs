@@ -32,9 +32,9 @@ This repository contains the source code of the different configurations that ar
 
 ## Packages
 
-- [`@brionmario/eslint-plugin`](./packages/eslint-plugin/) - Shareable ESLint configurations & rules used in Brion Mario's code bases
-- [`@brionmario/prettier-config`](./packages/prettier-config/) - Shareable Prettier configurations used in Brion Mario's code bases
-- [`@brionmario/stylelint-config`](./packages/stylelint-config/) - Shareable Stylelint configurations used in Brion Mario's code bases
+- [![@brionmario/eslint-plugin](https://img.shields.io/npm/v/@brionmario/eslint-plugin?color=%234B32C3&label=%40brionmario%2Feslint-plugin&logo=eslint)](./packages/eslint-plugin/) - Shareable ESLint configurations & rules used in Brion Mario's code bases
+- [![@brionmario/prettier-config](https://img.shields.io/npm/v/@brionmario/prettier-config?color=%23F7B93E&label=%40brionmario%2Fprettier-config&logo=prettier)](./packages/prettier-config/) - Shareable Prettier configurations used in Brion Mario's code bases
+- [![@brionmario/stylelint-config](https://img.shields.io/npm/v/@brionmario/stylelint-config?color=%23263238&label=%40brionmario%2Fstylelint-config&logo=stylelint)](./packages/stylelint-config/) - Shareable Stylelint configurations used in Brion Mario's code bases
 - `@brionmario/typescript-config` [TODO 🦄] - Shareable TSConfig presets to be used in Brion Mario's code bases
 - `@brionmario/jest-preset` [TODO 🦄] - Shareable Jest presets to be used in Brion Mario's code bases
 - `@brionmario/postcss-config` [TODO 🦄] - Shareable PostCSS config to be used in Brion Mario's code bases
