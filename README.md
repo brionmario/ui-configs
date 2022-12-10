@@ -46,4 +46,4 @@ Excellent! Read up on our [guidelines for contributing](./CONTRIBUTING.md) to ge
 
 ## License
 
-Licenses this source under the Apache License, Version 2.0 [LICENSE](./LICENSE), You may not use this file except in compliance with the License.
+Licenses this source under the MIT License, Version 2.0 [LICENSE](./LICENSE), You may not use this file except in compliance with the License.
