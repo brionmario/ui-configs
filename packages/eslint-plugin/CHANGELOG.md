@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.1
+
+### Patch Changes
+
+- [#6](https://github.com/brionmario/ui-configs/pull/6) [`967b522`](https://github.com/brionmario/ui-configs/commit/967b522141be43e558a0555c0b3a9672dfdcc118) Thanks [@brionmario](https://github.com/brionmario)! - `@brionmario` should be defined as a plugin in the `next` shareable ESLint config.
+
 ## 0.2.0
 
 ### Minor Changes
