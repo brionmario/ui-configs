@@ -23,7 +23,8 @@
   "scripts": {
     "build": "nx run-many --target=build --parallel",
     "changeset": "changeset",
-    "lint": "nx run-many --target=lint --parallel"
+    "lint": "nx run-many --target=lint --parallel",
+    "version-packages": "changeset version && pnpm install --lockfile-only"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",

@@ -1,6 +1,6 @@
 {
   "name": "@brionmario/eslint-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shareable ESLint configurations & rules used in Brion Mario's code bases.",
   "keywords": [
     "brionmario",

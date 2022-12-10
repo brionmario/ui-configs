@@ -1,6 +1,6 @@
 {
   "name": "@brionmario/stylelint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shareable Stylelint configuration used in Brion Mario's code bases.",
   "keywords": [
     "brionmario",
