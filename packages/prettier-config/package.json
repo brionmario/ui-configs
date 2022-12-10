@@ -1,0 +1,38 @@
+{
+  "name": "@brionmario/prettier-config",
+  "version": "0.1.0",
+  "description": "Shareable Prettier configuration used in Brion Mario's code bases.",
+  "keywords": [
+    "brionmario",
+    "brionmario-oss",
+    "prettier",
+    "shareable-config",
+    "frontend-tooling"
+  ],
+  "homepage": "https://github.com/brionmario/ui-configs#readme",
+  "bugs": {
+    "url": "https://github.com/brionmario/ui-configs/issues"
+  },
+  "license": "MIT",
+  "author": "Brion Mario",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brionmario/ui-configs",
+    "directory": "packages/prettier-config"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "prettier": ">=2.0.0",
+    "typescript": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
