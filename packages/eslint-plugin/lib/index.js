@@ -2,20 +2,20 @@
  * @fileoverview Shareable ESLint configurations &amp; rules used in Brion Mario's code bases.
  * @author Brion Mario
  */
-"use strict";
+'use strict';
 
 //------------------------------------------------------------------------------
 // Requirements
 //------------------------------------------------------------------------------
 
-const requireIndex = require("requireindex");
+const requireIndex = require('requireindex');
 
 //------------------------------------------------------------------------------
 // Plugin Definition
 //------------------------------------------------------------------------------
 
 // import all rules in lib/rules
-module.exports.rules = requireIndex(__dirname + "/rules");
+module.exports.rules = requireIndex(__dirname + '/rules');
 
 // import processors
 module.exports.processors = {
@@ -28,8 +28,9 @@ module.exports.configs = {
   internal: require('./configs/internal'),
   javascript: require('./configs/javascript'),
   jest: require('./configs/jest'),
+  next: require('./configs/next'),
   prettier: require('./configs/prettier'),
   react: require('./configs/react'),
   strict: require('./configs/strict'),
-  typescript: require('./configs/typescript')
+  typescript: require('./configs/typescript'),
 };
