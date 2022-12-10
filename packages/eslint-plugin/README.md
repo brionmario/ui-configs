@@ -105,6 +105,19 @@ If you're working on a React project, do the following extension in your `eslint
 }
 ```
 
+### For Next.js
+
+If you're working on a Next.js project, do the following extension in your `eslint` config.
+
+```diff
+{
+  "extends": [
+    "plugin:@brionmario/typescript"
++   "plugin:@brionmario/next",
+  ]
+}
+```
+
 #### Jest & React Testing Library.
 
 If you're working on project that uses [`Jest`](https://jestjs.io/) & [`React Testing Library`](https://testing-library.com/docs/react-testing-library/intro/) for unit testing, do the following extension in your `eslint` config.
