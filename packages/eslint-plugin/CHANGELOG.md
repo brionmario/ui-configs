@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.2
+
+### Patch Changes
+
+- [#8](https://github.com/brionmario/ui-configs/pull/8) [`12fca71`](https://github.com/brionmario/ui-configs/commit/12fca719df429fce80e4f07624ff8b8e19699e5f) Thanks [@brionmario](https://github.com/brionmario)! - `next/core-web-vitals` inherits react eslint plugins that conflicts with internal `react` shareable config. Hence, it would be best to only extend `plugin:@next/next/recommended` from the `next` shareable config. See https://nextjs.org/docs/basic-features/eslint#recommended-plugin-ruleset.
+
 ## 0.2.1
 
 ### Patch Changes
