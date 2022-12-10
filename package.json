@@ -1,0 +1,35 @@
+{
+  "name": "@bionmario/ui-configs-workspace",
+  "version": "0.1.0",
+  "description": "Shareable configurations to maintain consistency across Brion Mario's UI code bases.",
+  "keywords": [
+    "brionmario",
+    "brionmario-oss",
+    "oss",
+    "eslint",
+    "stylelint",
+    "prettier"
+  ],
+  "homepage": "https://github.com/brionmario/ui-configs#readme",
+  "bugs": {
+    "url": "https://github.com/brionmario/ui-configs/issues"
+  },
+  "license": "MIT",
+  "author": "Brion Mario",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brionmario/ui-configs"
+  },
+  "scripts": {
+    "build": "nx run-many --target=build --parallel",
+    "lint": "nx run-many --target=lint --parallel"
+  },
+  "devDependencies": {
+    "nx": "15.2.1",
+    "prettier": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true
+}
