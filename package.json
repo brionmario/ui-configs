@@ -22,9 +22,11 @@
   },
   "scripts": {
     "build": "nx run-many --target=build --parallel",
+    "changeset": "changeset",
     "lint": "nx run-many --target=lint --parallel"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
     "nx": "15.2.1",
     "prettier": "^2.6.2"
   },
