@@ -1,7 +1,7 @@
 /**
  * MIT License
  *
- * Copyright (c) 2022, Brion Mario
+ * Copyright (c) 2022, Brion Mario.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -53,8 +53,8 @@ const getLicenseHeaderPattern = () => {
     ' * MIT License',
     ' *',
     {
-      pattern: ' Copyright \\(c\\) \\d{4}, Brion Mario',
-      template: ` * Copyright (c) ${new Date().getFullYear()}, Brion Mario`,
+      pattern: ' Copyright \\(c\\) \\d{4}, Brion Mario.',
+      template: ` * Copyright (c) ${new Date().getFullYear()}, Brion Mario.`,
     },
     ' *',
     ' * Permission is hereby granted, free of charge, to any person obtaining a copy',
