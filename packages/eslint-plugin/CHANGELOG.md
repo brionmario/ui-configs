@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.3
+
+### Patch Changes
+
+- [#10](https://github.com/brionmario/ui-configs/pull/10) [`a9316e5`](https://github.com/brionmario/ui-configs/commit/a9316e5feac26c96ec054afbdd04c4e94bb7d824) Thanks [@brionmario](https://github.com/brionmario)! - There should be a period `.` after `Brion Mario` in the copyright header.
+
 ## 0.2.2
 
 ### Patch Changes
