@@ -53,8 +53,8 @@ const getLicenseHeaderPattern = () => {
     ' * MIT License',
     ' *',
     {
-      pattern: ' Copyright \\(c\\) \\d{4}, Brion Mario.',
-      template: ` * Copyright (c) ${new Date().getFullYear()}, Brion Mario.`,
+      pattern: ' Copyright \\(c\\) \\d{4}, Brion Mario',
+      template: ` * Copyright (c) ${new Date().getFullYear()}, Brion Mario`,
     },
     ' *',
     ' * Permission is hereby granted, free of charge, to any person obtaining a copy',
@@ -90,6 +90,6 @@ module.exports = {
   rules: {
     // Enforce Brion's based license header on files.
     // https://github.com/Stuk/eslint-plugin-header
-    'header/header': ['warn', 'block', getLicenseHeaderPattern()],
+    'header/header': ['warn', 'block', getLicenseHeaderPattern(), 2],
   },
 };
