@@ -25,6 +25,7 @@
     "changeset": "changeset",
     "lint": "nx run-many --target=lint --parallel",
     "publish:packages": "pnpm build && changeset publish",
+    "test": "nx run-many --target=test --parallel",
     "version:packages": "changeset version && pnpm install --lockfile-only"
   },
   "devDependencies": {
