@@ -1,13 +1,32 @@
 /**
- * @fileoverview Shareable ESLint configurations &amp; rules used in Brion Mario's code bases.
- * @author Brion Mario
+ * MIT License
+ *
+ * Copyright (c) 2022, Brion Mario
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
  */
-'use strict';
 
 //------------------------------------------------------------------------------
 // Requirements
 //------------------------------------------------------------------------------
 
+const path = require('path');
 const requireIndex = require('requireindex');
 
 //------------------------------------------------------------------------------
@@ -15,22 +34,11 @@ const requireIndex = require('requireindex');
 //------------------------------------------------------------------------------
 
 // import all rules in lib/rules
-module.exports.rules = requireIndex(__dirname + '/rules');
+module.exports.rules = requireIndex(path.join(__dirname, 'rules'));
 
 // import processors
 module.exports.processors = {
   // add your processors here
 };
 
-// module.exports.configs = requireIndex(__dirname + "/configs");
-module.exports.configs = {
-  core: require('./configs/core'),
-  internal: require('./configs/internal'),
-  javascript: require('./configs/javascript'),
-  jest: require('./configs/jest'),
-  next: require('./configs/next'),
-  prettier: require('./configs/prettier'),
-  react: require('./configs/react'),
-  strict: require('./configs/strict'),
-  typescript: require('./configs/typescript'),
-};
+module.exports.configs = requireIndex(path.join(__dirname, 'configs'));
