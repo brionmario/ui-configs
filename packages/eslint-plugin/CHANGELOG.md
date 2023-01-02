@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.5
+
+### Patch Changes
+
+- [#14](https://github.com/brionmario/ui-configs/pull/14) [`091da61`](https://github.com/brionmario/ui-configs/commit/091da61f439c02e0098b4b0051fb8275b88c6beb) Thanks [@brionmario](https://github.com/brionmario)! - We should allow scripts and configs to use dev dependencies
+
 ## 0.2.4
 
 ### Patch Changes
