@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.7
+
+### Patch Changes
+
+- [#18](https://github.com/brionmario/ui-configs/pull/18) [`32f8aaf`](https://github.com/brionmario/ui-configs/commit/32f8aaf6b228a071e5c5c634b7818d7247578c4b) Thanks [@brionmario](https://github.com/brionmario)! - Turn off `import/no-extraneous-dependencies`
+
 ## 0.2.6
 
 ### Patch Changes
