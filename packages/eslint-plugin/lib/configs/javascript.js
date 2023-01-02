@@ -39,7 +39,7 @@ module.exports = {
           '**/*.spec.?(j|t)s',
           '**/*.stories.?(j|t)s?(x)',
           '**/*.stories.mdx',
-          '**/*.config.?(j|t)s',
+          '**/*.config.*',
           '**/scripts/**/*',
         ],
       },
