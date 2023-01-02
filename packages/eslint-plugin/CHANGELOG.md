@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.6
+
+### Patch Changes
+
+- [#16](https://github.com/brionmario/ui-configs/pull/16) [`74f4a2c`](https://github.com/brionmario/ui-configs/commit/74f4a2c0bc5c0b427d6779cf094b97dac0b7685c) Thanks [@brionmario](https://github.com/brionmario)! - Configs can even be `cjs`, `mjs` etc
+
 ## 0.2.5
 
 ### Patch Changes
