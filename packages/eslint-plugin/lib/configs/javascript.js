@@ -29,12 +29,19 @@
 module.exports = {
   extends: ['plugin:@brionmario/core', 'airbnb-base'],
   rules: {
-    // Allow dev dependencies to be used in test specs and storybook files.
+    // Allow dev dependencies to be used in test specs, configs, scripts and storybook files.
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['**/*.test.?(j|t)s', '**/*.spec.?(j|t)s', '**/*.stories.?(j|t)s?(x)', '**/*.stories.mdx'],
+        devDependencies: [
+          '**/*.test.?(j|t)s',
+          '**/*.spec.?(j|t)s',
+          '**/*.stories.?(j|t)s?(x)',
+          '**/*.stories.mdx',
+          '**/*.config.?(j|t)s',
+          '**/scripts/**/*',
+        ],
       },
     ],
     // Bit harsh rule, some developers will like to have consistent exports in a module.
