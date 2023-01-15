@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.8
+
+### Patch Changes
+
+- [#20](https://github.com/brionmario/ui-configs/pull/20) [`390d423`](https://github.com/brionmario/ui-configs/commit/390d42355bd402b3d1fdf6101f5afd2cb59e1b29) Thanks [@brionmario](https://github.com/brionmario)! - In Airbnb ruleset, `default` is also restricted which disallows `export { default } from` syntax. There's a tracker and a WIP PR to give first class support to bypass. Until then, I'm allowing `default` syntax. Config is copied from https://github.com/airbnb/javascript/blob/f3d3a07/packages/eslint-config-airbnb-base/rules/es6.js#L65.
+
 ## 0.2.7
 
 ### Patch Changes
