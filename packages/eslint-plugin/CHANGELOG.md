@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.10
+
+### Patch Changes
+
+- [#24](https://github.com/brionmario/ui-configs/pull/24) [`7ba7fcd`](https://github.com/brionmario/ui-configs/commit/7ba7fcd023129bb77191d6938d251eadad210e3a) Thanks [@brionmario](https://github.com/brionmario)! - `no-restricted-exports` was put in first level `rules` hash in TS ruleset but it should go in overrides instead.
+
 ## 0.2.9
 
 ### Patch Changes
