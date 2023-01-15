@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.2.9
+
+### Patch Changes
+
+- [#22](https://github.com/brionmario/ui-configs/pull/22) [`f8521c3`](https://github.com/brionmario/ui-configs/commit/f8521c315184883fcdc5fe281c53550ad8b9464f) Thanks [@brionmario](https://github.com/brionmario)! - `no-restricted-exports` rule was modified to allow `export {default} from` syntax in https://github.com/brionmario/ui-configs/pull/20. But, it's not working for TS files.
+
 ## 0.2.8
 
 ### Patch Changes
