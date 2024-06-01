@@ -156,3 +156,16 @@ For Brion's own projects, the following extension is used  to enforce specific s
   ]
 }
 ```
+
+### JSON
+
+If you want to JSON sort your `package.json` file and other JSON files, do the following extension in your `eslint` config.
+
+```diff
+{
+  "extends": [
+    ...,
++   "plugin:@brionmario/json",
+  ]
+}
+```
