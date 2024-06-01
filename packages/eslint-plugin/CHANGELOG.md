@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.3.1
+
+### Patch Changes
+
+- [#31](https://github.com/brionmario/ui-configs/pull/31) [`3b5e00d`](https://github.com/brionmario/ui-configs/commit/3b5e00de185e0228c3573cdf67f32756408d8716) Thanks [@brionmario](https://github.com/brionmario)! - Fix `Unexpected top-level property "overrides[0].pathPattern"`
+
 ## 0.3.0
 
 ### Minor Changes
