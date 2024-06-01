@@ -31,7 +31,6 @@ module.exports = {
     {
       files: 'package.json',
       parser: 'json-eslint-parser',
-      pathPattern: '^$',
       rules: {
         'header/header': 'off',
         'jsonc/sort-array-values': [
