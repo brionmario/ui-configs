@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.3.0
+
+### Minor Changes
+
+- [#28](https://github.com/brionmario/ui-configs/pull/28) [`d195917`](https://github.com/brionmario/ui-configs/commit/d195917792d1336bf2cd856a68c4565a13c6157c) Thanks [@brionmario](https://github.com/brionmario)! - Add a resuable `json` config
+
 ## 0.2.10
 
 ### Patch Changes
