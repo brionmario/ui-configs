@@ -1,5 +1,11 @@
 # @brionmario/eslint-plugin
 
+## 0.3.3
+
+### Patch Changes
+
+- [#36](https://github.com/brionmario/ui-configs/pull/36) [`66accec`](https://github.com/brionmario/ui-configs/commit/66accec5cd5036387219e256a8e027978014d647) Thanks [@brionmario](https://github.com/brionmario)! - Remove `jest/no-jest-import`
+
 ## 0.3.2
 
 ### Patch Changes
