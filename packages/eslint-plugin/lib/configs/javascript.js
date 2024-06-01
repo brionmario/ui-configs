@@ -31,11 +31,21 @@ module.exports = {
   rules: {
     // Harsh rule, Dev dependencies should to be used in test specs, configs, scripts and storybook files.
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
-    'import/no-extraneous-dependencies': 'off',
-    // Bit harsh rule, some developers will like to have consistent exports in a module.
-    // If there are a mixture of export types, the imports will look ugly.
-    // https://github.com/import-js/eslint-plugin-import/blob/v2.26.0/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '**/*.config.*cjs',
+          '**/scripts/*.js',
+          '**/*.stories.*',
+          '**/*.test.*',
+          '**/*.spec.*',
+          '**/__tests__/**',
+          '**/__mocks__/**',
+          'test-configs/**',
+        ],
+      },
+    ],
     // Disallow specified names in exports.
     // https://eslint.org/docs/rules/no-restricted-exports
     // FIXME: In Airbnb ruleset, `default` is also restricted which disallows `export { default } from` syntax.
